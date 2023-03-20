@@ -30,3 +30,4 @@ function onTodoListContainer.insertAdjacentElementHTML(event){
 
 //step 3. link to event handler
 addTaskButton.addEventListener('click', onAddTaskClicked);
+onTodoListContainer.addEventListener('click', onAddTaskClicked);
