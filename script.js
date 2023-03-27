@@ -15,7 +15,9 @@ function onAddTaskClicked(event) {
     templateContainer.insertAdjacentElementHTML("afterbegin", taskHTML);
 }
 
+
 function onTodoListContainer.insertAdjacentElementHTML(event){
+    var targetElement = event.targetElement 
     while(!targetElement.classList.container("task")){
         targetElement = targetElement.parentElement;
     }
