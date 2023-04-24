@@ -20,7 +20,7 @@
         /* Now clear the text box */
         newTaskInput.value = "";
 
-        let taskHTML = template.replace("<!-- TASK_NAME -->", taskName);
+        let taskHTML = template.replace("<!--TASK_NAME-->", taskName);
 
         todoListContainer.insertAdjacentHTML('beforeend', taskHTML);
 
@@ -110,3 +110,5 @@
     showActiveButton.addEventListener('click', shiwActiveTasks);
     showAllButton.addEventListener('click', showAllTasks);
     showCompletedButton.addEventListener('click', showCompleted);
+
+    renderTasks();
