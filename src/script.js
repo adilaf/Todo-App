@@ -1,4 +1,4 @@
-/*Get Element by ID*/
+//Step 1. Find the element//
     let addTaskButton = document.getElementById("add-task");
     let newTaskInput = document.getElementById("task-input");
     let todoListContainer = document.getElementById("todo-list");
