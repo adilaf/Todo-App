@@ -2,12 +2,15 @@
     let addTaskButton = document.getElementById("add-task");
     let newTaskInput = document.getElementById("task-input");
     let todoListContainer = document.getElementById("todo-list");
-    let templateElement = document.getElementById("list-item-template");
-    let template = templateElement.innerHTML;
 
     var showActiveButton = document.getElementById("show-active")
     var showAllButton = document.getElementById("show-all")
     var showCompletedButton = document.getElementById("show-completed")
+
+    let templateElement = document.getElementById("list-item-template");
+
+    
+    let template = templateElement.innerHTML;
 
     function saveTasks(name, isCompleted){
         localStorage.setItem(name, isCompleted);
